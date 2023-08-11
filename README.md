@@ -9,3 +9,5 @@
 优化上传后图片展示，采用自适应宽高
 
 #使用教程：https://www.dalao.pro/archives/86.html
+
+![20c577cf750d40e0d1424.jpg](https://flowede.pages.dev/file/20c577cf750d40e0d1424.jpg)
