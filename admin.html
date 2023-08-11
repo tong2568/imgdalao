@@ -28,13 +28,16 @@
         <el-main><el-row :gutter="12">
             <el-col :span="8">
               <el-card shadow="always">
-                记录总数量:
-                {{ Number }} 
+                记录总数量: {{ Number }} 
               </el-card>
+            </el-row>
+            <el-col :span="8">
               <el-card shadow="always">
 <!--                 <el-tooltip class="item" effect="dark" content="白名单数量" placement="top-start"></el-tooltip> -->
                 白名单数量：{{ WhiteList }}
               </el-card>
+            </el-row>
+            <el-col :span="8">
               <el-card shadow="always">
 <!--                 <el-tooltip class="item" effect="dark" content="黑名单数量" placement="top-start"></el-tooltip> -->
                 黑名单数量：{{ BlackList }}
