@@ -15,7 +15,7 @@ $smfile.fileinput({
         return dataObj;
     },
     // allowedFileExtensions: ['jpeg', 'jpg', 'png', 'gif', 'bmp', 'webp'],
-    allowedFileExtensions: ['jpeg', 'jpg', 'png', 'gif', 'bmp', 'webp'],
+    allowedFileExtensions: ['jpeg', 'jpg', 'png', 'gif', 'bmp', 'webp', 'ico', 'heic'],
     overwriteInitial: false,
     previewFileType: "file",
     maxFileSize: '5120',
@@ -31,7 +31,7 @@ $smfile.fileinput({
     },
     browseClass: "btn btn-success",
     // msgPlaceholder: "选择文件",
-    browseLabel: "选择图片或视频",
+    browseLabel: "选择图片",
     browseIcon: "<i class=\"fas fa-images\"></i> ",
     removeClass: "btn btn-danger",
     // removeLabel: "清除",
